@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Thai to Khmer</title>
+	<title></title>
 
 	<!----Custom css link---->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -66,7 +66,8 @@ align:center;
    border-radius: 50%;
    height: 40px;
    width: 40px;
-   cursor:pointer;
+   cursor:pointer;  box-shadow:0 0 5px cyan;
+
   }
 #btn :hover{
   transform: scale(0.9);
@@ -82,10 +83,27 @@ margin:5px;
 .back-btn{
 position:-webkit-sticky;
 position: sticky;
-top:0px;
-padding: 1px;
-}
+top:1px;
+padding: 2px;
+color: #0A0464;
+  
 
+  
+}
+ .back-btn1{ border-radius: 16px;
+   height: 40px;
+   width: 20%;
+   cursor:pointer;
+   font-size: 20px;
+  box-shadow:0 0 5px cyan;
+   }
+.back-btn1 :hover{
+  transform: scale(0.9);
+  color: #7b00e0;
+
+}
+ .same-color{
+color: #A7061A;}
 </style>
 </head>
 <body>
@@ -95,13 +113,13 @@ padding: 1px;
         
 				<div class="force-overflow">
 	
-    <div class="back-btn"><button id="btn"><a href="https://koy2023.github.io/thaitokhmer/"><i class="fa-solid fa-circle-arrow-left"></i></a></button></div>
-	<p style="font-size: 36px; font-family: droidsansthai, Aksaramatee; color: #5B0316;">ฉัน  <span style="font-family:Times New Roman; font-size:24px;">(chăn)</span> <button id="btn" onclick="audio.play();"><i class="fa-solid fa-volume-high"></i></button></p>
+    <div class="back-btn"><button class="back-btn1"><a href="https://koy2023.github.io/thaitokhmer/"><i class="fa-solid fa-arrow-left"></i></a></button></div>
+	<p style="font-size: 36px; font-family: droidsansthai, Aksaramatee; color: #A7061A;">ฉัน  <span style="font-family:Times New Roman; font-size:24px;">(chăn)</span> <button id="btn" onclick="audio.play();"><i class="fa-solid fa-volume-high"></i></button></p>
     
     <p style="font-size: 26px; font-family: Khmer OS, Khmer OS System; color: #073978;"><b>ខ្ញុំ</b><span>(ស្រី/ប្រុស)</span></p>
    <p style="font-size: 26px; font-family: Khmer OS, Khmer OS System; color: #073978;"><b>ឆាន់</b><span>(ព្រះសង្ឃ)</span></p>
 
-<h3 style="font-family: Khmer OS, Khmer OS System;"> <span>ឧទាហរណ៍ៈ </span> ខ្ញុំស្រលាញ់អ្នក។ <br/> ព្រះសង្ឃកំពុងឆាន់ចង្ហាន់។ </h3>
+<h3 style="font-family: Khmer OS, Khmer OS System;"> ឧទាហរណ៍ៈ <span class="same-color" style="color: "> ខ្ញុំ</span>ស្រលាញ់អ្នក។ <br/> ព្រះសង្ឃកំពុង<span class="same-color">ឆាន់</span>ចង្ហាន់។ </h3>
 				</div>
 		</div>
 </div>
